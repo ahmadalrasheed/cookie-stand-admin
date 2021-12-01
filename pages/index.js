@@ -15,7 +15,7 @@ export default function Home() {
       </header>
 
       <main className=" m-10 flex bg-green-100 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden">
-        <form className="p-6" onSubmit={(e)=>CookiesInformationHandler(CookiesInformation={"location":e.target.value.location,"minCustomer":e.target.value.minimum,"maxCustomers":e.target.value.maximum,"avgCookies":e.target.value.average})}>
+        <form className="bg-green-100 p-6" onSubmit={(e)=>CookiesInformationHandler(CookiesInformation={"location":e.target.value.location,"minCustomer":e.target.value.minimum,"maxCustomers":e.target.value.maximum,"avgCookies":e.target.value.average})}>
           <legend className="text-2xl text-center pl-3">Create Cookie Stand</legend>
           <br/>
           <label>location</label>
@@ -30,6 +30,7 @@ export default function Home() {
           <br/>
           <button className="p-4 bg-green-500" type="submit">Submit</button>
         </form>
+
 
       </main>
       <br/>
