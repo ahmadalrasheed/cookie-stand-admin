@@ -5,6 +5,7 @@ import CookieStandAdmin from './cookiestandadmin'
 export default function Home() {
   const [CookiesInformation, CookiesInformationHandler] = useState([])
 
+
   function EventHandler(e) {
     e.preventDefault();
     let my_object = {
